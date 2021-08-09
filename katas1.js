@@ -3,6 +3,7 @@ function oneThroughTwenty() {
   for (let i = 1; i <= 20; i++) 
   range.push(i)
    return range
+   
 }
 console.log(oneThroughTwenty())
 
