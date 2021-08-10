@@ -1,7 +1,8 @@
 function oneThroughTwenty() {
   const range = []
-  for (let i = 1; i <= 20; i++) 
-  range.push(i)
+  for (let i = 1; i <= 20; i++) {
+    range.push(i)
+  }
    return range
    
 }
@@ -12,10 +13,11 @@ console.log(oneThroughTwenty())
 function evensToTwenty() {
   let range = []
   for (let i = 1; i <=20; i++) {  
-  if ((i%2)==0) {
-    range.push(i)
-  }
-} return range
+    if ((i%2)==0) {
+      range.push(i)
+    }
+  }  
+  return range
 }
 console.log(evensToTwenty())
 
@@ -25,10 +27,11 @@ console.log(evensToTwenty())
 function oddsToTwenty() {
   let range = []
   for (let i = 1; i <=20; i++) {  
-  if ((i%2)!==0) {
+    if ((i%2)!==0) {
     range.push(i)
-}
-  } return range
+    }
+  } 
+  return range
 }
 console.log(oddsToTwenty())
 
@@ -39,8 +42,9 @@ function multiplesOfFive() {
   for (let i = 1; i <=100; i++) {  
     if ((i%5)==0) {
     range.push(i)
-}
-} return range
+    }
+  }  
+return range
 }
 console.log(multiplesOfFive())
 
@@ -58,8 +62,9 @@ function squareNumbers() {
 
 function countingBackwards() {
   const range = []  
-  for (let i = 20; i>=1; i--)
-  range.push (i)
+  for (let i = 20; i>=1; i--) {
+    range.push (i)
+  }
   return range
 } 
 console.log (countingBackwards())
@@ -69,10 +74,11 @@ console.log (countingBackwards())
 function evenNumbersBackwards() {
     let range = []
     for (let i = 20; i >=1; i--) {
-    if ((i%2)==0) {
-    range.push(i)
-}
-    } return range
+      if ((i%2)==0) {
+      range.push(i)
+      }
+    } 
+    return range
   }
   console.log (evenNumbersBackwards())
 
@@ -81,10 +87,11 @@ function evenNumbersBackwards() {
 function oddNumbersBackwards() {
   let range = []
   for (let i = 20; i >=1; i--) {
-  if ((i%2)!==0) {
-  range.push(i)
-}
-  } return range
+    if ((i%2)!==0) {
+    range.push(i)
+    }
+  } 
+  return range
 }
 console.log (oddNumbersBackwards())
 
@@ -95,8 +102,9 @@ function multiplesOfFiveBackwards() {
   for (let i = 100; i >=0; i--) {  
     if ((i%5)==0) {
     range.push(i)
-}
-} return range
+    }
+  } 
+  return range
 }
 console.log(multiplesOfFiveBackwards())
 
@@ -108,5 +116,4 @@ function squareNumbersBackwards() {
   Write a for or a while loop
   return the result */
 }
-
 //call function squareNumbersBackwards
